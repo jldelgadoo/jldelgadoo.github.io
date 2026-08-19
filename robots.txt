@@ -1,0 +1,4 @@
+# Allow compliant crawlers to read the page-level noindex directive.
+# Access to this public GitHub Pages site is not restricted by this file.
+User-agent: *
+Allow: /
