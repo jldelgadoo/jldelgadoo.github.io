@@ -3,37 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#0d1117">
-  <title>José Luis D. — Technology & AI</title>
-  <meta name="description" content="Technology, data and artificial intelligence leadership for healthcare transformation.">
-  <meta name="author" content="José Luis D.">
+  <meta name="theme-color" content="#080a0f">
+  <title>Jose Luis D. — Technology & AI in Healthcare</title>
+  <meta name="description" content="Technology, data and artificial intelligence leadership for healthcare transformation. Infrastructure, governance, interoperability and applied AI.">
+  <meta name="author" content="Jose Luis D.">
   <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
   <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
-  <meta property="og:site_name" content="José Luis D.">
-  <meta property="og:title" content="José Luis D. — Technology & AI">
+  <meta property="og:site_name" content="Jose Luis D.">
+  <meta property="og:title" content="Jose Luis D. — Technology & AI in Healthcare">
   <meta property="og:description" content="Technology, data and AI leadership for healthcare transformation.">
   <meta property="og:url" content="https://jldelgadoo.github.io/">
   <link rel="alternate" hreflang="en" href="index.html">
   <link rel="alternate" hreflang="es" href="es/index.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
 
+  <!-- Atmosphere background -->
+  <div class="atmosphere" aria-hidden="true">
+    <div class="atmosphere-grid"></div>
+  </div>
+
+  <!-- Header -->
   <header class="site-header">
     <div class="header-inner">
-      <a class="header-brand" href="#home" aria-label="Home">
-        <strong>José Luis D.</strong>
+      <a class="header-brand" href="#home">
+        <strong>Jose Luis D.</strong>
         <span>Technology & AI</span>
       </a>
       <div class="header-tools">
         <nav class="header-nav" aria-label="Primary navigation">
+          <a href="#approach">Approach</a>
           <a href="#expertise">Expertise</a>
           <a href="#projects">Projects</a>
           <a href="#teaching">Teaching</a>
@@ -48,111 +55,329 @@
   </header>
 
   <main id="content">
+    <!-- ═══ HERO ═══ -->
     <section class="hero" id="home" aria-labelledby="hero-title">
-      <img class="hero-media" src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1920&q=85" alt="" fetchpriority="high">
+      <video autoplay loop muted playsinline class="hero-video" aria-hidden="true">
+        <source src="https://www.palantir.com/assets/xrfr7uokpv1b/6M2JKHlAX0hBQGNo0frl73/c7a20bce307ce95ddbbf88abb9b62e0e/HERO_REEL_13_1.mp4" type="video/mp4">
+      </video>
       <div class="hero-scrim" aria-hidden="true"></div>
       <div class="hero-grid" aria-hidden="true"></div>
-      <div class="hero-beams" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="hero-beams" aria-hidden="true">
+        <div class="hero-beam hero-beam-a"></div>
+        <div class="hero-beam hero-beam-b"></div>
+        <div class="hero-beam hero-beam-c"></div>
+      </div>
 
       <div class="hero-stage">
-        <aside class="hero-note hero-reveal">
-          <p>Healthcare technology is not an end in itself. It connects trusted data, clinical decisions and a better experience for people.</p>
-          <span>Working principle</span>
-        </aside>
-
-        <div class="hero-card hero-reveal">
-          <p class="eyebrow"><i></i> Technology & AI</p>
-          <h1 id="hero-title">How can we turn <span data-typewriter-text>technology</span><b class="cursor" aria-hidden="true">|</b><br>into real impact?</h1>
-          <p class="hero-copy">A practical perspective on connecting infrastructure, data, artificial intelligence and operations to improve clinical outcomes, efficiency and continuity.</p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#projects">View selected work <span aria-hidden="true">→</span></a>
-            <a class="button button-secondary" href="#expertise">Explore expertise</a>
+        <!-- Left: dedication card -->
+        <div class="hero-note hero-reveal">
+          <div class="hero-note-inner">
+            <p class="hero-note-text">Healthcare technology is not an end in itself. It connects trusted data, clinical decisions and a better experience for people.</p>
+            <span class="hero-note-label">Working principle</span>
           </div>
         </div>
 
-        <a class="profile-card hero-reveal" href="https://www.linkedin.com/in/jldelgadoosses/" target="_blank" rel="noopener noreferrer" aria-label="View José Luis D.'s LinkedIn profile">
-          <div class="linkedin-mark">Linked<span>in</span></div>
-          <div class="profile-divider"></div>
-          <strong>José Luis D.</strong>
-          <p>Technology & AI<br>UC CHRISTUS</p>
-          <small>UC lecturer · 20+ years in IT</small>
-          <span class="profile-button">View profile</span>
-        </a>
+        <!-- Center: glass card -->
+        <div class="hero-card hero-reveal">
+          <div class="hero-card-inner">
+            <div>
+              <p class="hero-eyebrow">Technology & AI in Healthcare</p>
+              <h1 id="hero-title" class="hero-title">How can we turn <span class="hero-typed" data-typewriter-text>technology</span><span class="hero-cursor" aria-hidden="true">|</span><span class="hero-tail">into real impact?</span></h1>
+            </div>
+            <div>
+              <p class="hero-sub">A practical perspective on connecting infrastructure, data, artificial intelligence and operations to improve clinical outcomes, efficiency and continuity across a 14-site healthcare network.</p>
+              <div class="hero-actions">
+                <a class="btn-primary" href="#projects">View selected work <span aria-hidden="true">&rarr;</span></a>
+                <a class="btn-ghost" href="#expertise">Explore expertise</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
-        <a class="scroll-cue" href="#approach" aria-label="Go to content"><span></span>Scroll</a>
+        <!-- Right: LinkedIn badge -->
+        <a class="hero-badge hero-reveal" href="https://www.linkedin.com/in/jldelgadoosses/" target="_blank" rel="noopener noreferrer" aria-label="View LinkedIn profile">
+          <div class="badge-top">
+            <div class="badge-wordmark">Linked<em>in</em></div>
+          </div>
+          <div class="badge-body">
+            <span class="badge-name">Jose Luis D.</span>
+            <span class="badge-title">Technology & AI · UC CHRISTUS</span>
+            <span class="badge-edu">UC lecturer · 20+ years in IT</span>
+          </div>
+          <span class="badge-btn">View profile</span>
+        </a>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true">
+        <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+        <span class="scroll-label">scroll</span>
       </div>
     </section>
 
-    <div class="page-shell">
-      <section class="intro section" id="approach" aria-labelledby="approach-title">
-        <div class="section-heading reveal">
+    <!-- ═══ BODY ═══ -->
+    <div class="page-body">
+
+      <!-- Approach -->
+      <section class="section" id="approach" aria-labelledby="approach-title">
+        <div class="section-head reveal">
           <p class="kicker">A connected practice</p>
-          <h2 id="approach-title">Technology that understands the clinical, operational and human context.</h2>
-          <p>I work at the intersection of critical operations, data governance, interoperability and applied AI. The goal is simple: prioritize what genuinely improves how a healthcare organization operates.</p>
+          <h2 class="section-title" id="approach-title">Technology that understands the clinical, operational and human context.</h2>
+          <p class="section-sub">I work at the intersection of critical operations, data governance, interoperability and applied AI. The goal is simple: prioritize what genuinely improves how a healthcare organization operates.</p>
         </div>
-        <div class="audience-grid">
-          <article class="audience-card reveal"><span>01</span><h3>Critical operations</h3><p>Infrastructure, continuity, security and integration as the foundation for uninterrupted care.</p></article>
-          <article class="audience-card reveal"><span>02</span><h3>Data for decisions</h3><p>Quality, traceability and analytics that turn information from a record into action.</p></article>
-          <article class="audience-card reveal"><span>03</span><h3>Purposeful AI</h3><p>Focused, measurable and governed use cases, always with an accountable human decision-maker.</p></article>
+        <div class="approach-grid">
+          <article class="approach-card reveal">
+            <span class="approach-num">01</span>
+            <h3>Critical operations</h3>
+            <p>Infrastructure, continuity, security and integration as the foundation for uninterrupted care.</p>
+          </article>
+          <article class="approach-card reveal">
+            <span class="approach-num">02</span>
+            <h3>Data for decisions</h3>
+            <p>Quality, traceability and analytics that turn information from a record into action.</p>
+          </article>
+          <article class="approach-card reveal">
+            <span class="approach-num">03</span>
+            <h3>Purposeful AI</h3>
+            <p>Focused, measurable and governed use cases, always with an accountable human decision-maker.</p>
+          </article>
+          <article class="approach-card reveal">
+            <span class="approach-num">04</span>
+            <h3>Teams & change</h3>
+            <p>Building capacity through people, governance structures, and the discipline to transition from project to operation.</p>
+          </article>
         </div>
       </section>
 
-      <section class="section section-rule" id="expertise" aria-labelledby="expertise-title">
-        <div class="section-heading reveal">
+      <!-- Expertise -->
+      <section class="section section-sep" id="expertise" aria-labelledby="expertise-title">
+        <div class="section-head reveal">
           <p class="kicker">Areas of expertise</p>
-          <h2 id="expertise-title">The layers that make transformation possible.</h2>
-          <p>From a stable platform to AI strategy, every domain reinforces the next.</p>
+          <h2 class="section-title" id="expertise-title">The layers that make transformation possible.</h2>
+          <p class="section-sub">From a stable platform to AI strategy, every domain reinforces the next.</p>
         </div>
         <div class="expertise-grid">
-          <article class="expertise-card reveal"><div class="expertise-art art-infra"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80" alt="Electronic circuit representing technology infrastructure" loading="lazy"><span class="material-symbols-outlined" aria-hidden="true">lan</span><i></i><i></i><i></i></div><div><small>I · Foundation</small><h3>Infrastructure & continuity</h3><p>Hybrid architecture, disaster recovery, Oracle, RHEL and cybersecurity for services that cannot stop.</p></div></article>
-          <article class="expertise-card reveal"><div class="expertise-art art-data"><img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=80" alt="Global digital network representing connected data" loading="lazy"><span class="material-symbols-outlined" aria-hidden="true">database</span><i></i><i></i><i></i></div><div><small>II · Platform</small><h3>Data governance</h3><p>Catalogs, lineage, quality and analytics that turn institutional data into trusted decisions.</p></div></article>
-          <article class="expertise-card reveal"><div class="expertise-art art-flow"><img src="https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=900&q=80" alt="Healthcare professional using clinical technology" loading="lazy"><span class="material-symbols-outlined" aria-hidden="true">account_tree</span><i></i><i></i><i></i></div><div><small>III · Integration</small><h3>Interoperability</h3><p>HL7, FHIR, SNOMED CT, APIs and Mirth to connect clinical and administrative systems.</p></div></article>
-          <article class="expertise-card reveal"><div class="expertise-art art-clinical"><img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=900&q=80" alt="Clinical team in a hospital setting" loading="lazy"><span class="material-symbols-outlined" aria-hidden="true">clinical_notes</span><i></i><i></i><i></i></div><div><small>IV · Clinical core</small><h3>Clinical systems</h3><p>PRISMA, TrakCare, HealthConnect and IRIS supporting safer, coordinated care.</p></div></article>
-          <article class="expertise-card reveal"><div class="expertise-art art-ai"><img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=900&q=80" alt="Medical technology and artificial intelligence visualization" loading="lazy"><span class="material-symbols-outlined" aria-hidden="true">neurology</span><i></i><i></i><i></i></div><div><small>V · Intelligence</small><h3>Applied AI in healthcare</h3><p>Clinical decision support, agents, automation and copilots focused on concrete care and operational challenges.</p></div></article>
-          <article class="expertise-card reveal"><div class="expertise-art art-strategy"><img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=80" alt="Team collaborating on a strategic decision" loading="lazy"><span class="material-symbols-outlined" aria-hidden="true">strategy</span><i></i><i></i><i></i></div><div><small>VI · Direction</small><h3>AI governance & strategy</h3><p>Portfolio management, risk assessment, adoption and value measurement to scale with sound judgment.</p></div></article>
+          <article class="expertise-card reveal">
+            <div class="expertise-img-wrap">
+              <img class="expertise-img" src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80" alt="Electronic circuit representing technology infrastructure" loading="lazy">
+              <div class="expertise-img-overlay"></div>
+            </div>
+            <div class="expertise-body">
+              <span class="expertise-num">I &middot; Foundation</span>
+              <h3>Infrastructure & continuity</h3>
+              <p>Hybrid architecture, disaster recovery, Oracle, RHEL and cybersecurity for services that cannot stop.</p>
+              <div class="expertise-footer"><span class="expertise-level">Foundation</span></div>
+            </div>
+          </article>
+          <article class="expertise-card reveal">
+            <div class="expertise-img-wrap">
+              <img class="expertise-img" src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=80" alt="Global digital network representing connected data" loading="lazy">
+              <div class="expertise-img-overlay"></div>
+            </div>
+            <div class="expertise-body">
+              <span class="expertise-num">II &middot; Platform</span>
+              <h3>Data governance</h3>
+              <p>Catalogs, lineage, quality and analytics that turn institutional data into trusted decisions.</p>
+              <div class="expertise-footer"><span class="expertise-level">Platform</span></div>
+            </div>
+          </article>
+          <article class="expertise-card reveal">
+            <div class="expertise-img-wrap">
+              <img class="expertise-img" src="https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=900&q=80" alt="Healthcare professional using clinical technology" loading="lazy">
+              <div class="expertise-img-overlay"></div>
+            </div>
+            <div class="expertise-body">
+              <span class="expertise-num">III &middot; Integration</span>
+              <h3>Interoperability</h3>
+              <p>HL7, FHIR, SNOMED CT, APIs and Mirth to connect clinical and administrative systems.</p>
+              <div class="expertise-footer"><span class="expertise-level">Integration</span></div>
+            </div>
+          </article>
+          <article class="expertise-card reveal">
+            <div class="expertise-img-wrap">
+              <img class="expertise-img" src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=900&q=80" alt="Clinical team in a hospital setting" loading="lazy">
+              <div class="expertise-img-overlay"></div>
+            </div>
+            <div class="expertise-body">
+              <span class="expertise-num">IV &middot; Clinical core</span>
+              <h3>Clinical, financial and access systems</h3>
+              <p>PRISMA, TrakCare, HealthConnect, IRIS and SAP supporting safer, coordinated care and operational continuity.</p>
+              <div class="expertise-footer"><span class="expertise-level">Clinical</span></div>
+            </div>
+          </article>
+          <article class="expertise-card reveal">
+            <div class="expertise-img-wrap">
+              <img class="expertise-img" src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=900&q=80" alt="Medical technology and artificial intelligence" loading="lazy">
+              <div class="expertise-img-overlay"></div>
+            </div>
+            <div class="expertise-body">
+              <span class="expertise-num">V &middot; Intelligence</span>
+              <h3>Applied AI in healthcare</h3>
+              <p>Clinical decision support, agents, automation and copilots focused on concrete care and operational challenges.</p>
+              <div class="expertise-footer"><span class="expertise-level">Intelligence</span></div>
+            </div>
+          </article>
+          <article class="expertise-card reveal">
+            <div class="expertise-img-wrap">
+              <img class="expertise-img" src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=80" alt="Team collaborating on a strategic decision" loading="lazy">
+              <div class="expertise-img-overlay"></div>
+            </div>
+            <div class="expertise-body">
+              <span class="expertise-num">VI &middot; Direction</span>
+              <h3>AI governance & strategy</h3>
+              <p>AI committee co-leadership, institutional policy design, portfolio prioritization, and the discipline to say "not yet" as often as "let's go."</p>
+              <div class="expertise-footer"><span class="expertise-level">Strategy</span></div>
+            </div>
+          </article>
         </div>
       </section>
 
-      <section class="section section-rule" id="projects" aria-labelledby="projects-title">
-        <div class="section-heading reveal">
+      <!-- Projects -->
+      <section class="section section-sep" id="projects" aria-labelledby="projects-title">
+        <div class="section-head reveal">
           <p class="kicker">Selected work</p>
-          <h2 id="projects-title">Initiatives where technology, data and AI become real capability.</h2>
-          <p>A selection of initiatives that reflect the kind of challenges I seek to solve: complex, critical and visibly impactful.</p>
+          <h2 class="section-title" id="projects-title">Initiatives where technology, data and AI become real capability.</h2>
+          <p class="section-sub">A selection of initiatives that reflect the kind of challenges I seek to solve: complex, critical and visibly impactful.</p>
         </div>
-        <div class="projects-grid">
-          <article class="project-card project-prisma reveal"><div class="project-visual"><span class="material-symbols-outlined">local_hospital</span><i></i><i></i><i></i></div><div class="project-meta"><span>01 · Clinical core</span><b>In production</b></div><h3>PRISMA / TrakCare</h3><p>Stability, adoption and evolution of the clinical system that supports everyday care.</p></article>
-          <article class="project-card project-cdss reveal"><div class="project-visual"><span class="material-symbols-outlined">medication</span><i></i><i></i><i></i></div><div class="project-meta"><span>02 · Clinical AI</span><b>Pilot</b></div><h3>CDSS & Digital Prescribing</h3><p>Pharmacological decision support through clinical rules, context and human oversight.</p></article>
-          <article class="project-card project-rcm reveal"><div class="project-visual"><span class="material-symbols-outlined">receipt_long</span><i></i><i></i><i></i></div><div class="project-meta"><span>03 · Revenue cycle</span><b>In development</b></div><h3>RCM Agent</h3><p>Pre-billing validation to reduce friction, late findings and avoidable denials.</p></article>
-          <article class="project-card project-via reveal"><div class="project-visual"><span class="material-symbols-outlined">monitoring</span><i></i><i></i><i></i></div><div class="project-meta"><span>04 · Data & value</span><b>In progress</b></div><h3>VIA / PULSO</h3><p>A platform that connects governance, value measurement and data-driven decisions.</p></article>
-          <article class="project-card project-azmed reveal"><div class="project-visual"><span class="material-symbols-outlined">radiology</span><i></i><i></i><i></i></div><div class="project-meta"><span>05 · Medical imaging</span><b>Evaluation</b></div><h3>AZMed</h3><p>AI as a second reader to support the timely detection of fractures in emergency care.</p></article>
-          <article class="project-card project-copilot reveal"><div class="project-visual"><span class="material-symbols-outlined">smart_toy</span><i></i><i></i><i></i></div><div class="project-meta"><span>06 · Productivity</span><b>Active pilot</b></div><h3>Claude & Kiro</h3><p>Governed experimentation that empowers teams to design, analyze and build.</p></article>
+        <div class="projects-surface">
+          <div class="projects-grid">
+            <article class="project-card reveal" data-accent="clinical">
+              <div class="project-top">
+                <span class="project-num">01</span>
+                <span class="project-status">In production</span>
+              </div>
+              <h3>PRISMA / TrakCare</h3>
+              <p>Stability, adoption and evolution of the clinical system that supports everyday care.</p>
+            </article>
+            <article class="project-card reveal" data-accent="ai">
+              <div class="project-top">
+                <span class="project-num">02</span>
+                <span class="project-status">Pilot</span>
+              </div>
+              <h3>CDSS & Digital Prescribing</h3>
+              <p>Pharmacological decision support through clinical rules, context and human oversight.</p>
+            </article>
+            <article class="project-card reveal" data-accent="revenue">
+              <div class="project-top">
+                <span class="project-num">03</span>
+                <span class="project-status">In development</span>
+              </div>
+              <h3>RCM Agent</h3>
+              <p>Pre-billing validation to reduce friction, late findings and avoidable denials.</p>
+            </article>
+            <article class="project-card reveal" data-accent="data">
+              <div class="project-top">
+                <span class="project-num">04</span>
+                <span class="project-status">In progress</span>
+              </div>
+              <h3>VIA / PULSO</h3>
+              <p>A platform that connects governance, value measurement and data-driven decisions.</p>
+            </article>
+            <article class="project-card reveal" data-accent="data">
+              <div class="project-top">
+                <span class="project-num">05</span>
+                <span class="project-status">Building</span>
+              </div>
+              <h3>Data Governance Platform</h3>
+              <p>Institutional data catalog, lineage, quality rules and analytics on AWS Redshift and Power BI.</p>
+            </article>
+            <article class="project-card reveal" data-accent="ai">
+              <div class="project-top">
+                <span class="project-num">06</span>
+                <span class="project-status">Active program</span>
+              </div>
+              <h3>CORFO PRISMA IA 2.0</h3>
+              <p>Clinical decision support with UC and CENIA — pharmacological rules, simulation and AI-assisted prescribing.</p>
+            </article>
+            <article class="project-card reveal" data-accent="productivity">
+              <div class="project-top">
+                <span class="project-num">07</span>
+                <span class="project-status">Active pilot</span>
+              </div>
+              <h3>Claude & Kiro on AWS</h3>
+              <p>Governed AI experimentation with Claude Teams and Kiro IDE — empowering a 4-person AI team to design, build and ship on AWS.</p>
+            </article>
+            <article class="project-card reveal" data-accent="imaging">
+              <div class="project-top">
+                <span class="project-num">08</span>
+                <span class="project-status">In production</span>
+              </div>
+              <h3>AWS AgentCore & Bedrock</h3>
+              <p>Enterprise AI infrastructure — agents, knowledge bases, guardrails and model orchestration on AWS for healthcare use cases.</p>
+            </article>
+          </div>
         </div>
       </section>
 
-      <section class="section section-rule teaching" id="teaching" aria-labelledby="teaching-title">
-        <div class="section-heading reveal">
+      <!-- Teaching -->
+      <section class="section section-sep" id="teaching" aria-labelledby="teaching-title">
+        <div class="section-head reveal">
           <p class="kicker">Teaching</p>
-          <h2 id="teaching-title">Sharing knowledge is also how capability is built.</h2>
-          <p>Teaching keeps the focus on what matters and creates an active dialogue between institutional practice, standards and what comes next.</p>
+          <h2 class="section-title" id="teaching-title">Sharing knowledge is also how capability is built.</h2>
+          <p class="section-sub">Teaching keeps the focus on what matters and creates an active dialogue between institutional practice, standards and what comes next.</p>
         </div>
         <div class="teaching-grid">
-          <article class="teaching-card reveal"><span class="material-symbols-outlined">school</span><h3>UC teaching</h3><p>Clinical informatics, digital health and interoperability from a practical architecture and operations perspective.</p></article>
-          <article class="teaching-card reveal"><span class="material-symbols-outlined">hub</span><h3>Standards that connect</h3><p>HL7, FHIR, SNOMED CT and APIs explained through the real journey of clinical data.</p></article>
-          <article class="teaching-card reveal"><span class="material-symbols-outlined">groups</span><h3>Team development</h3><p>Applied AI workshops that turn technical curiosity into the ability to execute.</p></article>
+          <article class="teaching-card reveal">
+            <span class="teaching-icon material-symbols-outlined">school</span>
+            <h3>UC lecturer</h3>
+            <p>Clinical informatics, digital health and interoperability at Pontificia Universidad Cat&oacute;lica de Chile. Since 2026.</p>
+          </article>
+          <article class="teaching-card reveal">
+            <span class="teaching-icon material-symbols-outlined">hub</span>
+            <h3>Standards that connect</h3>
+            <p>HL7, FHIR, SNOMED CT and APIs explained through the real journey of clinical data from operations to decisions.</p>
+          </article>
+          <article class="teaching-card reveal">
+            <span class="teaching-icon material-symbols-outlined">groups</span>
+            <h3>Applied AI workshops</h3>
+            <p>Kiro Immersion Day (30 people), Anthropic partnership training, and team enablement across 5 areas.</p>
+          </article>
         </div>
       </section>
 
-      <section class="profile-section section section-rule" id="profile" aria-labelledby="profile-title">
+      <!-- Profile -->
+      <section class="section section-sep" id="profile" aria-labelledby="profile-title">
         <div class="profile-layout reveal">
-          <div><p class="kicker">Profile</p><h2 id="profile-title">José Luis D.</h2><p class="profile-role">Technology & AI · UC CHRISTUS</p><p class="profile-summary">I lead teams and capabilities that make technology work better today while enabling sustainable transformation tomorrow.</p><a class="button button-outline" href="https://www.linkedin.com/in/jldelgadoosses/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></div>
-          <div class="profile-details"><div><small>Education</small><p>Computer Engineering · Strategic IT Management · Strategic Leadership in Healthcare</p></div><div><small>Experience</small><p>UC CHRISTUS · thyssenkrupp · ARCADIS Chile · OHL · 20+ years in IT</p></div><div><small>Focus</small><p>Health IT Leadership · Data Strategy · AI Governance · Interoperability</p></div></div>
+          <div>
+            <p class="kicker">Profile</p>
+            <h2 class="section-title" id="profile-title">Jose Luis D.</h2>
+            <p class="profile-role">Technology & AI &middot; UC CHRISTUS</p>
+            <p class="profile-summary">I lead ~35 people across 5 areas — plus a dedicated 4-person AI team — making technology work better today while enabling transformation for a network serving 500+ beds across 14 sites.</p>
+            <a class="btn-outline" href="https://www.linkedin.com/in/jldelgadoosses/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">&nearr;</span></a>
+          </div>
+          <div class="profile-details">
+            <div class="profile-detail">
+              <small>Education</small>
+              <p>Computer Engineering &middot; Strategic IT Management (UC) &middot; Strategic Leadership in Healthcare (UC, in progress)</p>
+            </div>
+            <div class="profile-detail">
+              <small>Experience</small>
+              <p>UC CHRISTUS (since 2014) &middot; thyssenkrupp &middot; ARCADIS &middot; OHL &middot; 20+ years in IT, 11 in healthcare</p>
+            </div>
+            <div class="profile-detail">
+              <small>Focus</small>
+              <p>Health IT Leadership &middot; Data Strategy &middot; AI Governance &middot; Interoperability &middot; AWS Cloud</p>
+            </div>
+            <div class="profile-detail">
+              <small>Scale</small>
+              <p>42 active initiatives &middot; 7 AI cases in governance &middot; 4-person AI team &middot; 14 healthcare sites</p>
+            </div>
+          </div>
         </div>
       </section>
+
     </div>
   </main>
 
-  <footer class="site-footer"><div><strong>José Luis D.</strong><span>Technology, data and AI for healthcare transformation.</span></div><p>© 2026 · Santiago, Chile</p></footer>
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <strong>Jose Luis D.</strong>
+      <span>Technology, data and AI for healthcare transformation.</span>
+    </div>
+    <p>&copy; 2026 &middot; Santiago, Chile</p>
+  </footer>
+
   <div id="progress-bar" aria-hidden="true"></div>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <script src="main.js"></script>
