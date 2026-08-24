@@ -173,6 +173,18 @@ img { display: block; max-width: 100%; }
 .teaching-card h3 { margin: 0; font: 600 1.05rem/1.2 var(--font-body); color: var(--ink); }
 .teaching-card p { margin: 0; font-size: .86rem; line-height: 1.68; color: var(--ink-soft); }
 
+/* ── Content grid (Instagram posts) ── */
+.content-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.content-card { position: relative; border-radius: 14px; overflow: hidden; aspect-ratio: 1; display: block; transition: transform .2s cubic-bezier(.23,1,.32,1), box-shadow .25s cubic-bezier(.23,1,.32,1); }
+.content-card img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s cubic-bezier(.23,1,.32,1), filter .3s; }
+.content-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,.72) 0%, transparent 50%); display: flex; align-items: flex-end; padding: 16px; opacity: 0; transition: opacity .25s cubic-bezier(.23,1,.32,1); }
+.content-label { font: 600 .78rem/1.3 var(--font-body); color: #fff; letter-spacing: -.01em; }
+@media (hover: hover) and (pointer: fine) {
+  .content-card:hover { transform: translateY(-3px); box-shadow: 0 12px 32px rgba(0,0,0,.12); }
+  .content-card:hover img { transform: scale(1.04); filter: brightness(.92); }
+  .content-card:hover .content-overlay { opacity: 1; }
+}
+
 /* ── Profile section ── */
 .profile-layout { display: grid; grid-template-columns: 1.05fr .95fr; gap: clamp(3rem, 8vw, 9rem); align-items: start; }
 .profile-role { margin: 0; color: var(--accent-deep); font-weight: 650; font-size: .95rem; }
@@ -225,6 +237,7 @@ img { display: block; max-width: 100%; }
   .section { padding: 64px 20px; }
   .section-title { font-size: 1.8rem; }
   .expertise-grid, .projects-grid, .teaching-grid, .approach-grid { grid-template-columns: 1fr; }
+  .content-grid { grid-template-columns: repeat(2, 1fr); }
   .profile-layout { grid-template-columns: 1fr; gap: 2rem; }
   .site-footer { flex-direction: column; align-items: flex-start; padding: 2rem 20px; }
   .scroll-cue { display: none; }
