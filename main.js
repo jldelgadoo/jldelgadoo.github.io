@@ -16,29 +16,6 @@
     window.addEventListener('scroll', showGrid, { passive: true });
   }
 
-  /* ── Typewriter ── */
-  const phraseTarget = document.querySelector('[data-typewriter-text]');
-  const phrases = document.documentElement.lang.startsWith('es')
-    ? ['tecnologia', 'datos confiables', 'IA aplicada', 'interoperabilidad', 'gobernanza']
-    : ['technology', 'trusted data', 'applied AI', 'interoperability', 'governance'];
-
-  if (phraseTarget && !reducedMotion) {
-    let phrase = 0;
-    let character = phrases[0].length;
-    let deleting = false;
-
-    const type = () => {
-      const current = phrases[phrase];
-      character += deleting ? -1 : 1;
-      phraseTarget.textContent = current.slice(0, character);
-      let pause = deleting ? 42 : 74;
-      if (!deleting && character === current.length) { deleting = true; pause = 1800; }
-      if (deleting && character === 0) { deleting = false; phrase = (phrase + 1) % phrases.length; pause = 380; }
-      window.setTimeout(type, pause);
-    };
-    window.setTimeout(() => { deleting = true; type(); }, 1800);
-  }
-
   /* ── GSAP animations ── */
   if (reducedMotion || typeof window.gsap === 'undefined') return;
   gsap.registerPlugin(ScrollTrigger);
